@@ -47,8 +47,8 @@ li img{
     
     
 }
-li img:hover{
-    zoom: 1;
+li:hover{
+    transform: scale(1.2);
 }
 li p{
     margin-bottom: 20px;
