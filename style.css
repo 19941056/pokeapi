@@ -43,10 +43,12 @@ li{
 }
 li img{
     width: 50%;
+
     
     
-    
-    
+}
+li img:hover{
+    zoom: 1;
 }
 li p{
     margin-bottom: 20px;
