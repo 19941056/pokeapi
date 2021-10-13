@@ -27,7 +27,7 @@ const pintarPokemon=(pokemons)=>{
         (element)=>
         `<li><h2>${element.name}</h2>
         <img src="${element.image}"
-        /><p>${element.id}</p></li>`).join(' ');
+        /><p>#${element.id}</p></li>`).join(' ');
         lista.innerHTML=pokemonsHtml
     
 
